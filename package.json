@@ -1,0 +1,15 @@
+{
+  "name": "bird-finder",
+  "version": "1.0.0",
+  "description": "Bird identification DBMS and DSA project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import": "node importData.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "xml2js": "^0.6.2"
+  }
+}
